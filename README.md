@@ -24,5 +24,5 @@ export PATH="$(go env GOBIN):$(go env GOPATH)/bin:$PATH"
 
 Once exported, you can simply `go install`.
 ```shell
-go install github.com/treyburn/pbf-util
+go install github.com/treyburn/pbf-util@latest
 ```
